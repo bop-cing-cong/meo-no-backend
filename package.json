@@ -1,0 +1,19 @@
+{
+  "name": "meo-no-v3",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Mèo Nổ V3 — Solo AI, bộ máy luật phía máy chủ, giao diện tiếng Việt",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
