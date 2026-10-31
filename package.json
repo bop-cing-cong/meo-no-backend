@@ -1,0 +1,19 @@
+{
+  "name": "meo-no-v5",
+  "version": "5.0.0",
+  "private": true,
+  "description": "Mèo Nổ V5 — Solo AI và phòng nhiều người realtime, xử lý luật tại máy chủ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
